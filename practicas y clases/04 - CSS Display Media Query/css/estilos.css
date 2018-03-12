@@ -1,0 +1,115 @@
+/*
+
+*{margin:0;}
+FUNDAMENTALLLLL
+- setear esto para normalizar todos los margenes (llevarlos a 0 y que no dependa de los márgenes que le da cada navegador)
+- Hay hojas de estilo que se pueden descargar y tienen listas las configuraciones más comunes: Normalize.CSS de Falcon Masters
+- Como las hojas de estilo se pueden usar en cascada, el normalize se linkea 1º. Además, si quiero, así puedo pisar la regla. 
+
+*/
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,figcaption,a{
+	font-family: sans-serif;
+}
+.wrap {
+	margin: 0 auto;
+	padding: 0 1% 5% 1%;
+	display: block;
+}
+
+.container {
+	margin: 0 auto;	
+}
+
+
+.header {
+	background-color: #000000;	
+	text-align: center;
+}
+/* CÓMO HAGO PARA QUE ME QEDEN LOS GATITOS PEGADOS A LOS COSTADOSNDSJAGBLFASDC 
+header img.img1 {
+	float: left;
+}
+*/
+nav {
+	display: block;
+	text-align: center;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+nav a {
+	background-color: orange;
+	color: #ffffff;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 5px;
+}
+/*la prop. de Display NO SE HEREDA, entonces no puedo aplicarlo a ul solo*/
+
+section {
+	margin: 0 auto;
+}
+
+h1 {
+	color: #ffffff;
+	display: inline-block;
+	vertical-align: middle;
+
+/*text-align: no anda siempre*/
+
+}
+
+section article {
+	padding: 2%;
+	display: inline-block;
+}
+
+.img1{
+	width: 70px;
+	vertical-align: middle;
+}
+
+.img2{
+	width: 90px;
+	vertical-align: middle;
+}
+
+.img3 {
+	width: 70px;
+	float: right;
+	vertical-align: middle;
+} 
+
+.rosa.ancho {
+	width: 48%;
+	height: 200px; /* no me funciona OK si pongo % en lugar de px*/
+}
+
+.azul.ancho {
+	width: 100%;
+	height: 100px; 
+	
+}
+
+.verde.ancho {
+	width: 30%;
+	height: 200px; 
+
+}
+
+
+footer { background-color: yellow;}
+
+.rosa {	background-color: magenta;}
+.azul {	background-color: blue;}
+.verde {background-color: green;}
+
+
+
