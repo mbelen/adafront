@@ -1,13 +1,14 @@
-form	{
+form {
 	border-style: solid;
 	border-width: 1px;
 	padding: 2em 2em 5em;
 }
-fieldset{
+
+fieldset {
 	border-style: none;
 }
 
-p,label,input,h1{
+p, label, input, h1 {
 	font-family: sans-serif;
 }
 
@@ -15,31 +16,33 @@ p,label,input,h1{
 	font-family: sans-serif;
 }
 */
-label{
+
+label {
 	margin: 0 0 .50em 0;
 	display: block;
 }
 
-.inline{
+.inline {
 	display: inline;
 }
-input{
+
+input {
 	font-style: italic;
 	color: #555555;
 }
 
-input.txtbtn{
+input.txtbtn {
 	font-style: initial;
 	color: #00000;
 	font-weight: bold;
 }
 
-input[name="nacionalidad"]::-webkit-calendar-picker-indicator {
-              opacity: 100;
-           }
 /* hace que la flechita de Nacionalidad se muestre siempre y no solo on hover
 Si quiero quie lo haga con todas y no solo con naiconalidad, saco lo que tiene entre []
 */
+input[name="nacionalidad"]::-webkit-calendar-picker-indicator {
+	opacity: 100;
+}
 
 /*
 input:invalid:not(:placeholder-shown){
