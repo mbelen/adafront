@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ejercicio FORMULARIO</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<h1>Untitled Page</h1>
+	</header>
+	<form action="#" method="post">
+		<fieldset>
+			<label>Nombre <br>
+				<input type="text" name="nombre" placeholder="ej: Jimena" required="true">
+			</label><br>
+			<label>Apellido <br>
+				<input type="text" name="apellido" placeholder="ej: Piano" required="true">
+			</label><br>
+			<label>Email <br>
+				<input type="email" name="email" placeholder="ej: jimena@gmail.com" required="true">
+			</label><br>
+			<label>Género <br>
+				<label class="inline">
+					<input type="radio" name="genero" value="Femenino" checked="true"> Femenino
+				</label>
+				<label class="inline">
+					<input type="radio" name="genero" value="Masculino"> Masculino
+				</label>
+			</label><br>
+			
+			<label>Nacionalidad<br>
+				<input list="nacionalidad" name="nacionalidad" multiple="false" nofill="true">
+				<datalist id="nacionalidad">
+					<option value="Argentina">
+					<option value="Boliviana">
+					<option value="Chilena">
+					<option value="Peruana">
+					<option value="Uruguaya">
+				</datalist>
+			</label><br>
+		</fieldset>
+
+		<fieldset>
+			<label>Temas que le interesan <br> 
+				<input type="checkbox" id="cbox1" value="Infraestructura"> Infraestructura
+				<br>
+				<input type="checkbox" id="cbox1" value="Programacion Web"> Programacion Web
+				<br>	
+				<input type="checkbox" id="cbox1" value="Programacion Mobile"> Programacion Mobile
+			</label><br>
+		</fieldset>
+
+		<label>
+			<input type="checkbox" id="cbox2" value="ToS" checked="true"> Acepto los Términos y Condiciones 
+		</label><br>
+
+		<input class="txtbtn" type="submit" value="Cancelar">
+		<input class="txtbtn" type="submit" value="Aceptar">
+
+	</form>
+</body>
+</html>
