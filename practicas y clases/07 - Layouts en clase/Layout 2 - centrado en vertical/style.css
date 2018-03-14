@@ -1,0 +1,50 @@
+body {
+	background-color: #dddddd;
+}
+
+.caja {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.padre {
+	height: 400px;
+	width:400px;
+	background-color: orange;
+	position: absolute;
+}
+
+.roja { 
+	background: red;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+ }
+
+ .azul { 
+	background: blue;
+ }
+
+ .verde { 
+	background: green;
+ }
+
+ .amarillo { 
+	background: yellow;
+ }
+
+ .gris { 
+	background: #bbbbbb;
+ }
+
+/* PROBAR POS. ABSOLUTE
+.roja{ 
+background: red;
+position: absolute;
+top: 0px;
+left: 200 px;
+
+ }

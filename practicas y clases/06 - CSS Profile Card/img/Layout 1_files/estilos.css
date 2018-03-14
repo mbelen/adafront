@@ -1,0 +1,9 @@
+body {
+	background-color: #dddddd;
+	padding: 10%
+}
+
+
+figure, nav, footer,.banner, .sidebar, .bodyarea {
+	background-color: #bbbbbb; 
+}

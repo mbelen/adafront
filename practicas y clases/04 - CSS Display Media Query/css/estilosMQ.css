@@ -10,18 +10,14 @@ FUNDAMENTALLLLL
 *{
 	margin:0;
 	box-sizing: border-box;
+
 }
 
 h1,h2,h3,h4,h5,h6,p,figcaption,a{
 	font-family: sans-serif;
 }
-.wrap {
-	margin: 0 auto;
-	padding: 0 1% 5% 1%;
-	display: block;
-}
 
-.container {
+.wrap {
 	margin: 0 auto;
 	width: 95%;	
 }
@@ -57,6 +53,7 @@ nav ul li {
 
 section {
 	margin: 0 auto;
+	padding: 0% 2% 2% 2%;
 }
 
 h1 {
@@ -70,7 +67,6 @@ h1 {
 }
 
 section article {
-	padding: 2%;
 	display: inline-block;
 }
 
@@ -90,7 +86,7 @@ section article {
 } 
 
 .rosa.ancho {
-	width: 48%;
+	width: 49.5%;
 	height: 200px; /* no me funciona OK si pongo % en lugar de px*/
 }
 
@@ -101,7 +97,7 @@ section article {
 }
 
 .verde.ancho {
-	width: 30%;
+	width: 33%;
 	height: 200px; 
 
 }
@@ -121,4 +117,60 @@ footer {
 	background-color: #bbbbbb;
 }
 
+/*  MEDIA QUERIES */
 
+@media all and (max-width: 480px) and (orientation:portrait) {
+
+	.maincontainer {
+		width: 100%;
+	}
+
+	.wrap {
+		width: 100%;
+	}
+
+	h1 {
+		margin: 10px;
+	}
+	nav {
+		text-align: right;
+		position: fixed;
+		top: 20%;
+		right: 0;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 0;
+	}
+
+	section { 
+		margin: 10px; 
+	}
+	
+	.rosa.ancho {
+		width: 100%;
+		display: block;
+		clear: both;
+	}
+	.rosa.ancho.right {
+		display: none;
+	}
+
+	.azul.ancho {
+		width: 100%;
+		display: block;
+	}
+
+	.verde.ancho{
+		display:none;		
+	}
+	.img3 { 
+	 	display: none;
+	}
+
+	.imgright {
+		display: none;
+	}
+
+}
