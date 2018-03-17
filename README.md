@@ -1,2 +1,7 @@
 # adafront
-cualquier cosa
+Repo con ejercicios en clase y TPs de ADA.
+
+Dudas, contrataciones y amenazas: 
+https://twitter.com/jimepianito
+
+
