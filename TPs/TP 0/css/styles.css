@@ -22,7 +22,18 @@ img.desaturate {
 
 img.desaturate:hover { 
 	-webkit-filter: grayscale(0%); 
-	filter: grayscale(0%); 
+	filter: grayscale(0%);
+
+}
+
+img.huerotate { 
+	-webkit-filter: hue-rotate(180deg);
+	filter: brightness(500%); 
+}
+
+img.huerotate:hover { 
+	-webkit-filter: hue-rotate(180deg);
+	filter: brightness(-900%); 
 }
 
 img.schmoops { 
@@ -44,7 +55,12 @@ img.schmoops {
 	margin:0 5px;
 }
 
-footer p{
+a { 
+	text-decoration: none;
+
+}
+
+footer p {
 	margin: 0 auto;
 	padding-top: 60px;
 	text-align: center;
