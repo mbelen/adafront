@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+}
+
+.contenedor {
+	width: 1000px;
+	height: 1500px;
+	background: #ddd;
+	display: flex;
+	/*flex-direction: row; */
+	/*establece la disposicion y el sentido de los elementos hijos: row o column y reverse*/
+	/*flex-wrap: wrap;*/
+	/*determina la existencia de saltos de linea. nowrap intenta evitarlo, es el valor por defecto. Va a modificar el ancho de los eleementos hijos.*/
+	flex-flow: row wrap;
+	/*atajo de las dos prop de arriba: direction y wrap. */
+	justify-content: flex-start;
+	/*alineacion en eje ppal (x) y maneja la distribución del espacio. flex end posiciona los elementos hacia la derecha. tb hay un center!!
+	space-between divide el espacio restante entre los elementos. space-around además agrega márgenes a los costados*/
+	align-items: flex-start; 
+	/*alineación de los elementos en el eje transversal (y) y distribucion del espacio.
+	baseline: no importa el tamaño que tengan las fonts, estará alineado a la base de la fuente
+	:stretch hay que comentar la altura, si no tiene h, se respeta el tamaño del cont padre*/
+	align-content: space-between;
+	/*alinea filas y lo hace en el eje Y. Con space-around deja margenes. con space-between, me respeta los margenes que puse originalmte.*/
+
+}	
+
+.caja {
+	width: 920px;
+	height: 250px;
+	background:#bbb;
+	margin: 0px;
+	padding: 10px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.titulo {
+	width: 900px;
+	height: 100px;
+	background-color: #333;
+	text-align: center;
+}
+
+.nav {
+	height: 100px;
+	width: 900px;
+	background: #eee;
+}
+
+.izquierda{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+}
+
+li {
+	list-style-type: none;
+	color: #333;
+	margin: 5px;
+}
+
+.selected { 
+	background-color: #333;
+	color: #ddd;
+}
+
+.centro {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+}
+
+.derecha {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+} 
+
+.entre {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+}
+
+.alrededor {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+}
+
+.vertical {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	align-content: space-between;
+}

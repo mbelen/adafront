@@ -1,0 +1,165 @@
+
+body {
+	background-color: #F6F6F6;
+}
+
+header {
+	margin: 10px 0 0 30px;
+ 
+}
+a, h1, ul li {
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 5px;
+}
+
+h1, h2, h3, h4, input, label, p {
+	font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+	color: #f6f6f6;
+}
+
+h4{
+	text-align: center;
+}
+ul li {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+label {
+	margin: 7px 5px 0 20px;
+	font-weight: 200;
+}
+
+.container {
+	width: auto;
+	margin: 0;
+}
+
+.nav {
+	margin-top: 10px;
+	color: #333;
+}
+
+.dropdown-menu {
+	background-color: #CEE891;
+}
+.nav-pills  li {
+	background-color: #E1F5C4;
+}
+.nav-pills ul li:hover {
+	background-color: #BADA5F;
+}
+.logo {
+      width: 10%;
+      height: auto;
+      padding: 5px;
+      float: right;
+ }
+
+.row {
+	margin-top: 5px;
+}
+
+.rowslider {
+	margin-bottom: 5px;
+}
+
+.rowe {
+	display: flex;
+	align-items: stretch; 
+}
+
+.flex {
+	display: flex;
+	align-items: stretch; 
+	align-content: space-around;
+}
+.info {
+	padding: 20px;
+	background-color: #E1F5C4; 
+ }
+
+.footer {
+	background-color: #ddd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.social {
+	float: right;
+}
+.rrss {
+	margin-left: 10px;
+}
+/*FORM*/
+
+.form {
+	background-color: #50C8C6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+input {
+	font-style: italic;
+	color: #555555;
+	width: 100%;
+}
+
+.txtbtn {
+	font-style: initial;
+	font-weight: bold;
+	background-color: #BADA5F;
+	border: 2px solid #BADA5F;
+	text-decoration: none;
+	color: #555;
+	width: 100%;
+	margin-top: 15px;
+}
+
+/*.formalign {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.links {
+	   font-family: arial;
+	   font-size: 20px;
+	   color: black;
+	   background-color: #CCFF66;
+	   border: solid; 
+	   color: black; 
+	   border-radius: 20%;
+	   float: left;
+	   margin: 20px 20px 20px 20px;
+	   padding: 5px 5px 5px 5px;
+}
+*/
+.thumbs {
+	
+}
+
+.boxed {
+  border: 1px solid black;
+}
+
+#map {
+      height: 200px;
+      width: 100%;
+}
+
+#fonta {font-family:Arial;}
+#fontb {font-family:Courier New;}
+#fontc {font-style: font-style: unset;}

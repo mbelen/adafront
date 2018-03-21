@@ -1,0 +1,62 @@
+* { font-family: sans-serif;
+
+}
+
+.container {
+	width: 95%;
+	background-color: #111;
+	display: flex;
+}
+
+header {
+	justify-content: flex-end;
+	width: 100%;
+
+}
+section {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+article {
+	width: 250px;
+}
+
+h1, h2, h3, p {
+	color: #eee;
+
+}
+
+h1 {
+	background-color: #333;
+	margin: 10px;
+}
+
+
+.evas {
+	/*width: 30%;*/
+
+	
+}
+
+.imgeva { 
+	width: 150px;
+	height: 100px;
+}
+
+/*
+para que la img acompañe al div caja como contenedor/contenido
+
+.caja {
+	width: 100%;
+	heigh: 200px;
+}
+
+.caja img {
+	width: 100%;
+	heigh: auto;
+}
+
+siempre es mejor encapsular las imgs dentro de divs porque es mas simple de manejar 
+*/

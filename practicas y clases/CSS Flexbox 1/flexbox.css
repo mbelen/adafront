@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: Arial;
+}
+
+.contenedor {
+	width: 900px;
+	height: 500px;
+	background: #212d40;
+	display: flex;
+	/*flex-direction: row; */
+	/*establece la disposicion y el sentido de los elementos hijos: row o column y reverse*/
+	/*flex-wrap: wrap;*/
+	/*determina la existencia de saltos de linea. nowrap intenta evitarlo, es el valor por defecto. Va a modificar el ancho de los eleementos hijos.*/
+	flex-flow: row wrap;
+	/*atajo de las dos prop de arriba: direction y wrap. */
+	justify-content: flex-start;
+	/*alineacion en eje ppal (x) y maneja la distribución del espacio. flex end posiciona los elementos hacia la derecha. tb hay un center!!
+	space-between divide el espacio restante entre los elementos. space-around además agrega márgenes a los costados*/
+	align-items: flex-start; 
+	/*alineación de los elementos en el eje transversal (y) y distribucion del espacio.
+	baseline: no importa el tamaño que tengan las fonts, estará alineado a la base de la fuente
+	:stretch hay que comentar la altura, si no tiene h, se respeta el tamaño del cont padre*/
+	align-content: space-between;
+	/*alinea filas y lo hace en el eje Y. Con space-around deja margenes. con space-between, me respeta los margenes que puse originalmte.*/
+
+}	
+
+.caja {
+	width: 100px;
+	height: 100px;
+	background:#f79256;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	font-size: 40px;
+	color: #fff;
+}
+

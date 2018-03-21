@@ -8,7 +8,7 @@ fieldset {
 	border-style: none;
 }
 
-p, label, input, h1 {
+p, label, input, h1, input {
 	font-family: sans-serif;
 }
 
