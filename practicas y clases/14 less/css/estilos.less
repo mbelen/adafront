@@ -1,0 +1,57 @@
+/* EJEMPLO
+div {
+	background-color: #ddd;
+	width: 200px;
+	&:hover {
+		background-color: #333;
+	}
+
+}
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+div {
+	height: 200px;
+	float: left;
+}
+
+@colorcajasb: #eaff00;
+
+@distancia: 10px;
+
+.container {
+	width: 800px;
+}
+
+.caja1 {
+	padding: @distancia;
+	display: inline-block;
+
+}
+
+.caja1:nth-child(1) {
+		margin-right: @distancia;
+		background-color: peru;
+		&:hover {
+			background-color: plum;
+		}
+	}
+.caja1:nth-child(2) {
+		background-color: yellow;
+		&:hover {
+			background-color: palegreen;
+		}
+	}
+
+.caja2 div {
+	background-color: @colorcajasb;
+}
+
+.caja2 {
+	padding: @distancia;
+	display: inline-block;
+
+}

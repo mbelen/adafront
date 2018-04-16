@@ -1,0 +1,32 @@
+figure {
+	margin-bottom: 1em;
+}
+
+.container {
+	background-color: #ddd;
+}
+
+.logo {
+	width: 200px;
+	height: auto;
+	-webkit-filter: invert(.8);
+	filter: invert(.8);
+}
+.fluid {
+
+}
+.fprecio {}
+
+.fmarca {}
+
+.fcategoria {}
+
+
+.thumbs {
+	width: 200px;
+	height: auto;
+}
+
+
+
+

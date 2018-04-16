@@ -1,0 +1,29 @@
+h1 {
+	font-family: 'Indie Flower', cursive;
+}
+
+h2, h3, h4, h5, h6, p, a {
+	color: #111;
+}
+/*nav {
+	list-style: none;
+}*/
+
+
+.barramenu {
+	background-color: #fee2d9;	
+}
+
+.destacada {
+/*	width: 80%;*/
+}
+ 
+figcaption {
+	display:none;
+}
+
+figcaption:hover {
+	display: block;
+	background-color: #fee2d9;
+	color: #fff;
+}
