@@ -157,6 +157,7 @@ switch (true) {
 console.log(y + " es " + dia);
 
 
+/*
 switch (y) {
 	case (1 = y): dia = "Lunes";  break;
 	case (2 = y): dia = "Martes"; break;
@@ -168,7 +169,7 @@ switch (y) {
 	default: dia = "un numero no valido"; break;
 }
 console.log(y + " es " + dia);
-
+*/
 
 
 
