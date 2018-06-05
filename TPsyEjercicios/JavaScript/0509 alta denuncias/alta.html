@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ALTA Denuncias</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<header>
+		<h1>ALTA Denuncias</h1>
+	</header>
+<div id="container">
+	<img class="logo" src="pfa.png">
+	<form action="#" method="post">
+		<fieldset>
+			<label id="tipovehiculo" class="inline">Tipo Vehiculo <br>
+				<input class="tipovehiculo" type="radio" name="tipovehiculo" value="Moto"> Moto
+				<input class="tipovehiculo" type="radio" name="tipovehiculo" value="Auto"> Auto
+				<input class="tipovehiculo" type="radio" name="tipovehiculo" value="Camion"> Camion
+			</label>
+			<br><br>
+			<label>Patente <br>
+				<input type="text" id="patente" placeholder="ej: ABC 123" required="true">
+			</label><br>
+			<label>Marca <br>
+				<input type="text" id="marca" name="marca" placeholder="Chevrolet">
+			</label><br>
+			<label>Modelo <br>
+				<input type="text" id="modelo" name="modelo" placeholder="Meriva">
+			</label><br>
+			<label>Lugar de la infracción <br>
+				<input type="text" id="calle" name="calle" placeholder="Av. Monroe">
+			</label><br>
+			<label>Dia y Hora <br>
+				<input type="date" id="diahora" name="diahora" placeholder="lugar de la infraccion">
+			</label><br>
+
+			<label>Oficial <br>
+				<input type="text" id="oficial" placeholder="ej: Mario Sosa">
+			</label><br>
+	
+		</fieldset>
+
+		<fieldset>
+			<label>Motivos infracción <br> 
+				<input class="motivo" type="checkbox" id="cbox1" value="doblefila"> Doble Fila
+				<br>
+				<input class="motivo" type="checkbox" id="cbox2" value="malestacionado"> Mal estacionado
+				<br>	
+				<input class="motivo" type="checkbox" id="cbox3" value="salidagarage"> Estaciono en salida vehiculos
+				<br>
+				<input class="motivo" type="checkbox" id="cbox4" value="abandonado"> Abandonado
+				<br>
+				<input class="motivo" type="checkbox" id="cbox5" value="otro"> Otro
+				<br>
+			</label><br>
+			<label>Detalle motivo <br>
+				<input type="textarea" id="motivotxt" name="motivotxt" placeholder="Otros motivos">
+			</label>
+			<br>
+		</fieldset>
+		<br>
+
+		<input class="txtbtn" type="submit" value="Cancelar">
+		<input id="cargar" class="txtbtn" type="submit" value="Cargar">
+
+	</form>
+	</div>
+	<footer>
+	<script type="text/javascript" src="jquery3.min.js"> </script>
+	<script type="text/javascript" src="index.js"></script>  
+	<script type="text/javascript" src="auto.js"></script>  
+	</footer>
+</body>
+</html>
