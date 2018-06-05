@@ -1,0 +1,99 @@
+
+body {
+	background-color: #fef9f0;
+}
+a {
+	color: #111;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/*HEADER*/
+header h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 5em;
+	margin-top: 0;
+	color: #0b8c8f;
+}
+.isorrss {	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.social {
+	align-self: flex-end;
+}
+.redes {
+	margin-left: 10px;
+}
+.redes:hover{
+	-webkit-filter: drop-shadow(.2em .2em .1em rgba(0,0,0,0.4));
+  	filter: drop-shadow(.2em .2em .1em rgba(0,0,0,0.4));
+}
+
+/*NAV*/
+nav {
+	float: right;
+}
+.dropdown-menu {
+	background-color: #cee891;
+}
+.nav-pills  li {
+	background-color: #cee891;
+}
+ul li {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 2em;
+}
+
+/*SLIDER*/
+.slider	{
+	margin-top: 1em;
+}
+.carousel-caption h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 4em;
+}
+
+/*NOTAS DESTACADAS*/
+.destacadas {
+	display: flex;
+	flex-direction: column;
+}
+.destacadas h3 {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 2em;	
+	text-align: center;
+	background-color: #a0d4a4;
+	padding: .2em 0;
+}
+.thumbs {
+	align-self: center;
+	width: 150px;
+	height: 150px;
+}
+.thumbs:hover {
+	-webkit-filter: blur(0.5px);
+	filter: blur(0.5px);
+}
+.destacada {
+	text-align: center;
+	margin: .2em 0; 
+}
+
+/*FOOTER*/
+h4 {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 2em;
+}
+.footer {
+	background-color: #a7dbd8;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin: 1em 0 2em 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

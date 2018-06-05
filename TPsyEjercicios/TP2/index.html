@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> TP 2 Memotest ¡Zorro edition!</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<h1>Memotest: Zorro edition</h1>
+	<div class="container">
+		
+		<div class="instrucciones">
+			<p class="text">
+				Hacé click en una ficha. <br/> Buscá su compañera.<br/> Formá todos los pares que puedas <br/> en la menor cantidad de turnos.
+			</p>
+			<input id="start" class="cta" type="submit" value="JUGAR">
+			<div id="detalles">
+				<div class="info">
+					<h3>Player:</h3>
+					<p class="jugador" id="player"></p>
+				</div>
+				<div class="info">
+					<h3 id="clics">Clics:</h3>
+					<p class="contador" id="contadorClics"></p>
+				</div>
+				<div class="info">
+					<h3 id="turnos">Turnos:</h3>
+					<p class="contador" id="contadorTurnos"></p>
+				</div>
+				<div class="info">
+					<h3 id="pares">Pares:</h3>
+					<p class="contador" id="contadorPares"></p>
+				</div>
+			</div>
+			 
+			<input id="restart" class="reset" type="submit" value="reiniciar"> 
+		</div>
+		
+		<div id="tablero" class="tablero">
+			<img class="tile size" src="img/zorros/dorso.png" data-id="0"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="1"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="2"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="3"></img>
+
+			<img class="tile size" src="img/zorros/dorso.png" data-id="4"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="5"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="6"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="7"></img>
+
+			<img class="tile size" src="img/zorros/dorso.png" data-id="8"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="9"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="10"></img>
+			<img class="tile size" src="img/zorros/dorso.png" data-id="11"></img>
+		
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script type="text/javascript" src="js/jquery3.min.js"> </script>
+	<script type="text/javascript" src="js/index.js"></script> 
+</body>
+</html>

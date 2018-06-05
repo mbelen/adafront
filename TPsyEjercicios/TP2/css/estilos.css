@@ -1,0 +1,85 @@
+* {
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 1em;
+	color: #333;
+}
+body {
+	background-color: #fff;
+}
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1em;
+	float: left;
+	display: block;
+	padding: 0 0.2em 0 0;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+}
+.instrucciones {
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+.text {
+
+}
+.info {
+	width: 100%;
+	display: flex;
+	margin: 0;
+}
+#tablero {
+	width: 650px;
+	float: left;
+	visibility: hidden;
+	margin: 0em 2em;
+}
+#detalles {
+	visibility: hidden;
+}
+.tile {
+	list-style: none;
+	margin: 0 0.2em 0.2em 0;
+	float: left;
+}
+.size {
+	width: 150px;
+	height: 150px;
+}
+.dorso {
+	height: 150px;
+	width: 150px;
+	background-color: #ddd; 
+}
+
+.jugador, .contador {
+	float: left;
+}
+.cta {
+	background-color: #333;
+	font-size: 1.5em;
+	border: none;
+    color: white;
+    padding: 0.5em 0.2em;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+}
+.reset {
+	background-color: #ccc;
+	border: none;
+    color: #222;
+    padding: 0.5em 0.2em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+    width: 30%;
+    align-self: baseline;
+}
