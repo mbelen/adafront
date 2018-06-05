@@ -69,7 +69,7 @@ $('document').ready(function () {
         matchedIds = [];
         descubiertasIds = [];
         matchedIds = []; 
-        $('.tile').attr('src', `img/zorros/dorso3.png`);
+        $('.tile').attr('src', `img/zorros/dorso.png`);
         setListenersActive();
         contadorClics = 0;
         $('#pares').val((matchedIds.length)/2);
@@ -117,8 +117,8 @@ $('document').ready(function () {
                 } else {
                     setListenersPassive();
                     setTimeout(function () {
-                      $('.tile:nth-child(' + (descubiertasIds[0] + 1) + ')').attr('src', `img/zorros/dorso3.png`);
-                      $('.tile:nth-child(' + (descubiertasIds[1] + 1) + ')').attr('src', `img/zorros/dorso3.png`);
+                      $('.tile:nth-child(' + (descubiertasIds[0] + 1) + ')').attr('src', `img/zorros/dorso.png`);
+                      $('.tile:nth-child(' + (descubiertasIds[1] + 1) + ')').attr('src', `img/zorros/dorso.png`);
                       descubiertasIds = [];
                       setListenersActive();
                     }, 1500);
